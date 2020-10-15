@@ -86,7 +86,7 @@ for (let i = 0; i < MAXPARTICLES; i++) {
 }
 
 //ring texture
-let ringTex = new THREE.TextureLoader().load('images/dot.png');
+let ringTex = new THREE.TextureLoader().load('images/particle.png');
 
 //ring material
 let ringMat = new THREE.PointsMaterial({
